@@ -9,8 +9,8 @@ html {
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #1e2a3b;
-    background: #f7f8fb;
+    color: #2f5443;
+    background: #f7f8f4;
     line-height: 1.6;
 }
 
@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e2e6ee;
+    border-bottom: 1px solid #e1e6e0;
 }
 
 .logo {
@@ -30,7 +30,7 @@ header {
 }
 
 header a {
-    color: #1e2a3b;
+    color: #2f5443;
     text-decoration: none;
     font-size: 15px;
 }
@@ -51,7 +51,7 @@ main {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.14em;
-    color: #3d5f86;
+    color: #3e6b55;
 }
 
 h1 {
@@ -68,13 +68,13 @@ h1 {
     margin: 0 0 38px;
     font-size: 21px;
     line-height: 1.55;
-    color: #4a5568;
+    color: #4a5751;
 }
 
 .button {
     display: inline-block;
     padding: 14px 22px;
-    background: #2c4a6e;
+    background: #2f5443;
     color: white;
     text-decoration: none;
     font-size: 15px;
@@ -83,11 +83,11 @@ h1 {
 }
 
 .button:hover {
-    background: #1f3a5a;
+    background: #24423a;
 }
 
 a:focus-visible {
-    outline: 2px solid #3d5f86;
+    outline: 2px solid #3e6b55;
     outline-offset: 3px;
     border-radius: 4px;
 }
@@ -95,12 +95,12 @@ a:focus-visible {
 .three-column .more:hover,
 header a:hover,
 footer a:hover {
-    color: #2c4a6e;
+    color: #2f5443;
 }
 
 .section {
     padding: 90px 0;
-    border-top: 1px solid #e2e6ee;
+    border-top: 1px solid #e1e6e0;
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 10vw;
@@ -118,7 +118,7 @@ footer a:hover {
 .text {
     max-width: 600px;
     font-size: 18px;
-    color: #4a5568;
+    color: #4a5751;
 }
 
 .text p {
@@ -134,14 +134,14 @@ footer a:hover {
 }
 
 .three-column div {
-    border-top: 2px solid #3d5f86;
+    border-top: 2px solid #3e6b55;
     padding-top: 18px;
 }
 
 .three-column span {
     font-size: 12px;
     font-weight: 700;
-    color: #5e6878;
+    color: #5f6b65;
 }
 
 h3 {
@@ -152,33 +152,33 @@ h3 {
 
 .three-column p {
     margin: 0;
-    color: #5e6878;
+    color: #5f6b65;
 }
 
 .book {
     padding: 90px 0 110px;
-    border-top: 1px solid #e2e6ee;
+    border-top: 1px solid #e1e6e0;
     max-width: 700px;
 }
 
 .book p:not(.eyebrow) {
     margin: 24px 0 30px;
     font-size: 18px;
-    color: #4a5568;
+    color: #4a5751;
 }
 
 footer {
     padding: 30px 6vw;
-    border-top: 1px solid #e2e6ee;
+    border-top: 1px solid #e1e6e0;
     display: flex;
     justify-content: space-between;
-    color: #5e6878;
+    color: #5f6b65;
     font-size: 13px;
 }
 
 footer a {
     margin-left: 20px;
-    color: #5e6878;
+    color: #5f6b65;
     text-decoration: none;
 }
 
@@ -197,10 +197,10 @@ footer a {
 .three-column .more {
     display: inline-block;
     margin-top: 14px;
-    color: #3d5f86;
+    color: #3e6b55;
     font-size: 15px;
     text-decoration: none;
-    border-bottom: 1px solid #3d5f86;
+    border-bottom: 1px solid #3e6b55;
 }
 
 @media (max-width: 1000px) and (min-width: 701px) {
