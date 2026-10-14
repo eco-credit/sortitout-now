@@ -187,10 +187,14 @@ footer a {
 .hero-split {
     max-width: none;
     display: grid;
-    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-columns: 1.3fr 0.7fr;
     gap: 4vw;
     align-items: center;
     padding: 90px 0 100px;
+}
+
+.hero-split h1 {
+    font-size: clamp(44px, 5vw, 62px);
 }
 
 .hero-art img {
@@ -295,4 +299,10 @@ footer a {
         margin-left: 0;
         margin-right: 20px;
     }
+}
+
+.hero-note {
+    margin: 18px 0 0;
+    font-size: 15px;
+    color: #5f6b65;
 }
