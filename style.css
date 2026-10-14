@@ -165,6 +165,33 @@ footer a {
     text-decoration: none;
 }
 
+/* Audience cards and pages */
+
+.four-column {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.three-column h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.three-column .more {
+    display: inline-block;
+    margin-top: 14px;
+    color: #171717;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #171717;
+}
+
+@media (max-width: 1000px) and (min-width: 701px) {
+    .four-column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 700px) {
 
     header {
