@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Nunito+Sans:wght@400;600;700&display=swap");
-
 * {
     box-sizing: border-box;
 }
@@ -10,8 +8,8 @@ html {
 
 body {
     margin: 0;
-    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
-    color: #2f2b28;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3029;
     background: #ffffff;
     line-height: 1.6;
 }
@@ -22,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: 1px solid #ece5df;
 }
 
 .logo {
@@ -32,7 +30,7 @@ header {
 }
 
 header a {
-    color: #171717;
+    color: #3d3029;
     text-decoration: none;
     font-size: 15px;
 }
@@ -53,18 +51,16 @@ main {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.14em;
-    color: #5d6b64;
+    color: #a0674a;
 }
 
 h1 {
     max-width: 800px;
     margin: 0 0 28px;
-    font-family: "Lora", Georgia, serif;
-    font-size: clamp(44px, 6vw, 72px);
-    line-height: 1.08;
-    letter-spacing: -0.015em;
-    font-weight: 400;
-    color: #2f2b28;
+    font-size: clamp(44px, 6vw, 76px);
+    line-height: 1.03;
+    letter-spacing: -0.04em;
+    font-weight: 600;
 }
 
 .intro {
@@ -72,13 +68,13 @@ h1 {
     margin: 0 0 38px;
     font-size: 21px;
     line-height: 1.55;
-    color: #555;
+    color: #6b5d54;
 }
 
 .button {
     display: inline-block;
     padding: 14px 22px;
-    background: #171717;
+    background: #3d3029;
     color: white;
     text-decoration: none;
     font-size: 15px;
@@ -87,7 +83,7 @@ h1 {
 
 .section {
     padding: 90px 0;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #ece5df;
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 10vw;
@@ -96,18 +92,16 @@ h1 {
 .section-heading h2,
 .book h2 {
     margin: 0;
-    font-family: "Lora", Georgia, serif;
-    font-size: 40px;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
-    font-weight: 400;
-    color: #2f2b28;
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    font-weight: 600;
 }
 
 .text {
     max-width: 600px;
     font-size: 18px;
-    color: #555;
+    color: #6b5d54;
 }
 
 .text p {
@@ -123,53 +117,51 @@ h1 {
 }
 
 .three-column div {
-    border-top: 2px solid #171717;
+    border-top: 2px solid #3d3029;
     padding-top: 18px;
 }
 
 .three-column span {
     font-size: 12px;
     font-weight: 700;
-    color: #777;
+    color: #8a7c72;
 }
 
 h3 {
     margin: 15px 0 10px;
-    font-family: "Lora", Georgia, serif;
     font-size: 24px;
-    font-weight: 500;
-    color: #2f2b28;
+    font-weight: 600;
 }
 
 .three-column p {
     margin: 0;
-    color: #666;
+    color: #74665d;
 }
 
 .book {
     padding: 90px 0 110px;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #ece5df;
     max-width: 700px;
 }
 
 .book p:not(.eyebrow) {
     margin: 24px 0 30px;
     font-size: 18px;
-    color: #555;
+    color: #6b5d54;
 }
 
 footer {
     padding: 30px 6vw;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #ece5df;
     display: flex;
     justify-content: space-between;
-    color: #777;
+    color: #8a7c72;
     font-size: 13px;
 }
 
 footer a {
     margin-left: 20px;
-    color: #777;
+    color: #8a7c72;
     text-decoration: none;
 }
 
@@ -188,10 +180,10 @@ footer a {
 .three-column .more {
     display: inline-block;
     margin-top: 14px;
-    color: #171717;
+    color: #3d3029;
     font-size: 15px;
     text-decoration: none;
-    border-bottom: 1px solid #171717;
+    border-bottom: 1px solid #3d3029;
 }
 
 @media (max-width: 1000px) and (min-width: 701px) {
