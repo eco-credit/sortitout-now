@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" role="img" aria-label="Two speech bubbles overlapping in the middle">
+  <circle cx="240" cy="200" r="185" fill="#e4ebe3"/>
+  <path d="M80 70 h170 a40 40 0 0 1 40 40 v90 a40 40 0 0 1 -40 40 h-120 l-62 48 l14 -48 a40 40 0 0 1 -42 -40 v-90 a40 40 0 0 1 40 -40 z" fill="#cfdccf"/>
+  <rect x="78" y="112" width="150" height="10" rx="5" fill="#2f5443" opacity=".3"/>
+  <rect x="78" y="136" width="110" height="10" rx="5" fill="#2f5443" opacity=".3"/>
+  <rect x="78" y="160" width="130" height="10" rx="5" fill="#2f5443" opacity=".3"/>
+  <path d="M230 150 h170 a40 40 0 0 1 40 40 v90 a40 40 0 0 1 -40 40 l14 48 l-62 -48 h-122 a40 40 0 0 1 -40 -40 v-90 a40 40 0 0 1 40 -40 z" fill="#3e6b55" opacity=".9"/>
+  <rect x="252" y="196" width="150" height="10" rx="5" fill="#ffffff" opacity=".75"/>
+  <rect x="252" y="220" width="120" height="10" rx="5" fill="#ffffff" opacity=".75"/>
+  <rect x="252" y="244" width="140" height="10" rx="5" fill="#ffffff" opacity=".75"/>
+</svg>
